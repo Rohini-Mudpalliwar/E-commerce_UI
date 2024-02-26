@@ -1,0 +1,176 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+
+/* NAVBAR............. */
+.navbar-nav li{
+        padding: 0px 3px;
+    }
+
+.navbar-toggler{
+    /* background-color: aqua; */
+    color: black;
+}
+li{
+    width: auto;
+}
+
+.navbar-nav .nav-item a{
+    color: rgb(226, 226, 226);
+    font-weight: bold;
+}
+
+.nav-item a:hover{
+        transition: 0.2s linear;
+        text-decoration: underline;
+        color:rgb(197, 255, 98) ;
+}
+
+/* SEARCH................... */
+ .form-inline button{
+   padding: 5px;
+   margin-left: 5px;
+}  
+
+.form-inline input{
+    padding: 5px;
+}
+
+/* WALLPAPER................... */
+ .big-banner{
+    background-image: url(images/white2.jpg);
+    background-size: cover;
+}
+
+
+.big-banner p{
+font-style: italic;
+font-weight: normal;
+font-size: x-large;
+color: black;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-shadow: 0px 0px 5px rgb(255, 255, 255);
+display: inline-block;
+}
+
+.big-banner a{
+font-weight: bolder;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: large;
+color: rgb(255, 255, 255);
+padding: 15px 30px;
+font-weight: bolder;
+/* background-color: rgb(166, 215, 21) ; */
+background-image: url(images/94e0c4f7-bb40-44cd-a5d2-bd1427873b9e.jpeg);
+border-radius: 40px;
+}
+.big-banner a:hover{
+background-image: url(images/Green\ Gradient.jpeg);
+text-decoration: none;
+}
+.big-banner .quotetext{
+    /* display: inline-block; */
+    margin-bottom: 30px;
+}
+
+ .big-banner .buttontext{
+    /* display: inline-block; */
+     /* margin-left: 50px; */
+} 
+.divinlineblock{
+    float: right;
+    position: relative;
+    top: 200px;
+    right: 140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jumbotron{
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    text-align: center; 
+    font-size: xx-large; 
+    padding: 20px;
+    background-size: cover;
+    background-color: transparent;
+    margin: 50px 0px 30px 0px;
+    text-shadow: 0px 0px 5px rgb(152, 152, 150);
+}
+
+.container{
+    width: 80%;
+   
+}
+
+.col-sm-4{
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(179, 197, 149));
+    padding: 15px 10px 10px 10px;
+}
+
+.col-sm-4 img{
+    width: 200px;
+    height: 250px;
+    position: relative;
+    left: 17%;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.col-sm-4 p{
+    font-size: small;
+    font-weight: bold;
+}
+
+.col-sm-4 a{
+text-decoration: none;
+background-color: rgb(255, 255, 255);
+border-radius: 3px 10px 10px 3px;
+color: black;
+padding: 2px 10px 2px 5px;
+font-size: small;
+font-weight: bolder;
+border-left: 3px solid rgb(53, 53, 53);
+}
+
+.col-sm-4 a:hover{
+/* background-color: rgb(255, 247, 19); */
+background-image: linear-gradient(to right, rgb(136, 135, 135), white, white);
+border-radius: 3px 10px 10px 3px;
+padding: 2px 30px 2px 5px;
+transition: 0.4s ease-in-out;
+/* color: rgb(255, 255, 255); */
+text-decoration: none;
+border-left: 4px solid rgb(136, 135, 135);
+border-bottom: 2px solid black;
+}
+
+
+@media (max-width: 800px) {
+    .divinlineblock .quotetext{
+        position: relative;
+        left: 40%;
+        top: 10px;
+    }
+    .divinlineblock .buttontext{
+        position: relative;
+        left: 45%;
+    }
+
+    
+  }
+
