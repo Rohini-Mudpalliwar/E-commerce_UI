@@ -1,0 +1,190 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+
+}
+
+.main-heading{
+    background-color: black;
+    background-image: linear-gradient(to right, rgb(29, 29, 29) , rgb(63, 63, 63), rgb(29, 29, 29));
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 2px;
+}
+.main-heading h1{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+}
+.main-heading p{
+    color: rgb(207, 207, 207);
+    background-color: rgb(81, 81, 81);
+    max-width: fit-content;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding:  5px 10px;
+}
+.numbering{
+    background-color: black;
+    padding: 10px 20px;
+    max-width: fit-content;
+    border-radius: 100%;
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+    margin-bottom: 10px;
+}
+/* .................................................................. */
+.one{
+    width: 500px;
+    border-radius: 16px;
+    background-color: rgb(133, 255, 3);
+    margin: 0px auto 60px auto;
+    color: black;
+    padding: 110px 40px;
+    font-weight: 500;
+}
+.one h1{
+    font-size: 50px;
+}
+.one-btn{
+    padding: 10px 30px;
+    border-radius: 60px;
+    border-color: transparent;
+    font-weight: bold;
+}
+/* .................................................................. */
+ 
+.two{
+    width: 400px;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px auto 50px auto;
+    border: 1px solid rgb(190, 190, 190);
+    color: rgb(82, 82, 82);
+
+}
+.two-body{
+    border-bottom: 1px solid rgb(158, 158, 158);
+    padding: 10px 20px;
+}
+.two-body h4{
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: 450;
+    color: black;
+}
+.two-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-right: 15px;
+    margin-left: 15px ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.two-foot{
+    color: rgb(44, 185, 255);
+    font-weight: 500;
+    padding: 5px 20px;
+}
+/* .................................................................. */
+
+.three{
+    width: 350px;
+    margin: 0px auto 60px auto;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 15px;
+    color: rgb(107, 107, 107);
+}
+.three-img{
+    background-image: url(img3.jpeg);
+    height: 250px;
+    background-size: cover;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+}
+.three-body{
+    padding: 30px 20px;
+    font-weight: 490;
+}
+.three-body h1{
+    color: rgb(32, 32, 32);
+    font-size: 25px;
+    font-weight: 500;
+}
+.three-body .button{
+    color: rgb(36, 154, 213);
+    font-weight: 600;
+    background-color: white;
+    font-size: medium;
+    border-radius: 5px;
+    max-width: max-content;
+    background-color: rgba(0, 255, 255, 0);
+    border: 1px solid rgb(157, 157, 157);
+}
+
+.three-body .button p{
+    padding: 0px 30px;
+}
+
+/* .................................................................. */
+.four{
+    width: 300px;
+    margin: 0px auto 60px auto;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+.four img{
+    width: 60%;
+    margin: 10px 20%;
+}
+.four .input{
+    border-radius: 10px;
+    width: auto;
+    border: 1px solid rgb(202, 202, 202);
+    padding: 15px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.four .four-btn{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 60px;
+    padding: 15px 40px;
+    margin: 10px;
+    border-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+}
+.four-privacy{
+    color: rgb(155, 155, 155);
+    font-size: small;
+    font-weight: 100px;
+    margin: 30px auto;
+}
+.four-privacy p{
+    margin: 0px;
+}
+.four-privacy a{
+    color: rgb(61, 61, 61);
+}
+.four p{
+    color: grey;
+    font-size: small;
+    font-weight: 100px;
+}
+
+.four a{
+    color: rgb(155, 155, 155);
+
+}
+
+
+
+
+
+
